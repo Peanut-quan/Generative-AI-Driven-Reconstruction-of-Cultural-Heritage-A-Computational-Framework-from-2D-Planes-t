@@ -1,0 +1,47 @@
+# RAG Database Materials
+
+This folder provides the reproducibility materials for the retrieval-augmented generation (RAG) component used in the knowledge-informed review stage of the workflow.
+
+The RAG database was used to provide the MLLM reviewer with external historical and architectural knowledge related to Song Dynasty architecture, urban street layout, material characteristics, vegetation, and historically inappropriate modern elements.
+
+Due to copyright and licensing restrictions, this repository does not redistribute full-text academic papers, books, or high-resolution museum images. Instead, it provides:
+
+the knowledge-source list;
+the database schema;
+representative structured knowledge entries;
+retrieval configuration settings;
+documentation of how the knowledge base was used in the review process.
+
+The released files are intended to support procedural reproducibility rather than to serve as a complete historical database.
+
+# Knowledge Sources
+
+The external structured knowledge base was constructed from online and offline sources related to Song Dynasty architecture, urban life, historical painting analysis, and *Along the River During the Qingming Festival*.
+
+## Online Sources
+
+1. China National Knowledge Infrastructure (CNKI)  
+   https://www.cnki.net
+
+2. Web of Science  
+   https://www.webofscience.com
+
+3. Google Scholar  
+   https://scholar.google.com
+
+4. Baidu Encyclopedia  
+   https://baike.baidu.com
+
+5. Official museum webpage for *Along the River During the Qingming Festival*  
+   https://www.dpm.org.cn/collection/paint/228226.html
+
+## Offline Sources
+
+The offline sources include academic monographs, historical painting studies, and architectural references concerning *Along the River During the Qingming Festival* and Song Dynasty architecture, including:
+
+1. *Qingming Riverside Scene: Memories of the Prosperous Northern Song Dynasty*
+
+2. The original painting *Along the River During the Qingming Festival* by Zhang Zeduan of the Song Dynasty
+
+3. *Yingzao Fashi* (*Treatise on Architectural Methods*), the official Song architectural codex
+
